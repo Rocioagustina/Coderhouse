@@ -1,0 +1,181 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #dddddd;
+}
+a {
+  display: block;
+  padding: 0.9375em;
+  background-color: #9b9b9b;
+  text-decoration: none;
+  &:hover {
+    background-color: #000;
+    color: #9b9b9b;
+  }
+}
+.bg-primary {
+  background-color: #55101c !important;
+  height: 4.6875em;
+  z-index: 1;
+}
+.boton {
+  width: 12.5em;
+  height: 2.1875em;
+  margin-top: 0.625em;
+  border-radius: 0.9375em;
+  background: #343a40;
+  color: #fff;
+  &:hover {
+    background: #fff;
+    color: #343a40;
+  }
+}
+.btn-group {
+  width: 18.75em;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+.cambio-color {
+  background: #343a40;
+  color: #fff;
+  &:hover {
+    background: #fff;
+    color: #343a40;
+  }
+}
+.card {
+  background: transparent;
+  border: 0.3125em #343a40 solid;
+  height: 34.375em;
+  width: 40.625em;
+  margin-left: 0.625em;
+  margin-bottom: 0.625em;
+  border-radius: 0.9375em;
+}
+.carousel-inner {
+  margin-top: 5.625em;
+  width: 75em;
+  left: 4.6875em;
+  line-height: 0;
+  margin-bottom: 6.25em;
+}
+.centrado {
+  text-align: center;
+}
+.checkbox {
+  position: relative;
+  width: 1.25em;
+  height: 1.25em;
+}
+.fotos {
+  width: 18.75em;
+  height: 21.875em;
+  border: medium solid #000;
+  margin: 2.5em 0.625em 0.625em 0.625em;
+  position: relative;
+}
+footer {
+  background-color: #55101c;
+  color: #000;
+  height: 9.375em;
+  text-align: center;
+  .fa-facebook-square {
+  background: #3B5998;
+  color: #fff;
+  .fa-instagram {
+  background: #dd2a7b;
+  color: #fff;
+  .fa-whatsapp {
+  background: #00bb2d;
+  color: #fff;
+    }
+  }
+}
+.formulario {
+  color: #000;
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+hr {
+  border: 0.0625em #000 solid;
+  margin: 0;
+}
+input {
+  padding: 0.9375em;
+  width: 12.5em;
+  height: 0.3125em;
+  border-radius: 0.9375em;
+  transition: all 2s;
+}
+.logo {
+  border: 0.4375em #55101c solid;
+  height: 4.6875em;
+  width: 12.5em;
+  position: relative;
+  z-index: 2;
+}
+.mensaje {
+  width: 31.25em;
+  height: 9.375em;
+  margin-bottom: 0.625em;
+  border-radius: 0.9375em;
+  background: #343a40;
+  color: #fff;
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+}
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+  position: relative;
+  bottom: 3.125em;
+  .fixed-top {
+  display: inline;
+  text-align: right;
+  }
+}
+p {
+color: #000;
+font-family: ubuntu;
+}
+h1 {
+color: #000;
+font-family: ubuntu;
+}
+th {
+border: 0.1875em #581b24 solid;
+}
+tr {
+border: 0.1875em #581b24 solid;
+}
+td {
+border: 0.1875em #581b24 solid;
+}
+.titulo {
+padding: 0.625em 0.625em 0.625em 0.625em;
+display: inline-block;
+margin: 0 0.5rem;
+animation: headShake;
+animation-duration: 3s;
+}
+ul {
+  li {
+    a {
+      color: #000;
+      font-family: ubuntu;
+    }
+  }
+}
+}
